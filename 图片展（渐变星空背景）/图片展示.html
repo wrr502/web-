@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			margin: 0 auto;
+			height: 626px;
+			width: 100%;
+			background-image: radial-gradient(220% 105% at top center, #1b2947 10%, #75517d 40%, #e96f92 65%, #f7f7b6);
+		}
+		div {
+			position: relative;
+		}
+		img {
+			width: 200px;
+			height: 200px;
+			border: 5px solid #fff;
+			border-radius: 5px;
+			position: absolute;
+			transition: 1s;
+		}
+		div img:hover {
+			z-index: 520;
+			transform: rotate(0deg) scale(1.4);
+			box-shadow: 0px 0px 11px 5px skyblue;
+		}
+		img:nth-child(1) {
+			top: 50px;
+			left: 250px;
+			transform: rotate(30deg)
+		}
+		img:nth-child(2) {
+			top: 50px;
+			left: 550px;
+			transform: rotate(45deg);
+		}
+		img:nth-child(3) {
+			top: 50px;
+			right: 300px;
+			transform: rotate(75deg);
+		}
+		img:nth-child(4) {
+			top: 200px;
+			left: 480px;
+		}
+		img:nth-child(5) {
+			top: 350px;
+			left: 280px;
+			transform: rotate(-30deg);
+		}
+		img:nth-child(6) {
+			top: 350px;
+			left: 590px;
+			transform: rotate(-45deg);
+		}
+		img:nth-child(7) {
+			top: 260px;
+			right: 370px;
+			transform: rotate(-75deg);
+		}
+		img:nth-child(8) {
+			top: 200px;
+			left: 100px;
+			transform: rotate(150deg);
+		}
+		img:nth-child(9) {
+			top: 200px;
+			right: 100px;
+			transform: rotate(-150deg);
+		}
+		img:nth-child(10) {
+			top: 350px;
+			right: 210px;
+			transform: rotate(55deg);
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img src="img/1.jpg" />
+		<img src="img/2.jpg" />
+		<img src="img/3.jpg" />
+		<img src="img/4.jpg" />
+		<img src="img/5.jpg" />
+		<img src="img/6.jpg" />
+		<img src="img/7.jpg" />
+		<img src="img/8.jpg" />
+		<img src="img/9.jpg" />
+		<img src="img/10.jpg" />
+	</div>
+</body>
+</html>
